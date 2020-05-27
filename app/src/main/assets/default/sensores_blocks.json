@@ -253,12 +253,12 @@
       "name": "NAME",
       "options": [
         [
-          "perto",
-          "perto"
+          "presente",
+          "presente"
         ],
         [
-          "longe",
-          "longe"
+          "ausente",
+          "ausente"
         ]
       ]
     }
