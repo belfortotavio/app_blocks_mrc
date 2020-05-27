@@ -1,0 +1,40 @@
+[
+
+{
+  "type": "block_se_logico",
+  "message0": "Se %1 Faça %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "NAME",
+      "align": "RIGHT"
+    },
+    {
+      "type": "input_statement",
+      "name": "NAME"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 210,
+  "tooltip": "",
+  "helpUrl": ""
+},
+
+{
+  "type": "block_loop_logico",
+  "message0": "Loop %1",
+  "args0": [
+    {
+      "type": "input_statement",
+      "name": "NAME"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 210,
+  "tooltip": "",
+  "helpUrl": ""
+}
+
+]
