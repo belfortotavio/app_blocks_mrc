@@ -5,22 +5,33 @@ Blockly.MRC = new Blockly.Generator("MRC");
 
 Blockly.MRC['block_atuador_ligarled'] = function(block) {
   var dropdown_name = block.getFieldValue('NAME');
-
-  var code = '...;\n';
+  var code = 'LigarLed('+ dropdown_name + ');\n';
   return code;
 };
 
+
 Blockly.MRC['block_atuador_desligarled'] = function(block) {
   var dropdown_name = block.getFieldValue('NAME');
-  var code = '...;\n';
+  var code = 'DesligarLed('+ dropdown_name + ');\n';
   return code;
 };
 
 Blockly.MRC['block_atuador_led2'] = function(block) {
-  var dropdown_name = block.getFieldValue('NAME');
-  var dropdown_name = block.getFieldValue('NAME');
-  var code = '...;\n';
-  return code;
+
+  var dropdown_porta = block.getFieldValue('PORTA');
+  var dropdown_estado = block.getFieldValue('ESTADO');
+  var code = '';
+
+  var ligarled = 'ligarLed('
+  var desligarled = 'DesligarLed('
+  if(dropdown_estado = 'ligado'){
+    code = 'ligarLed(' + dropdown_porta + ',' +dropdown_estado+');';
+  }
+  else{
+    code = 'DesligarLed(' + dropdown_porta + ',' +dropdown_estado+');';
+  }
+  //var code = code0 + '' + dropdown_porta + '' + dropdown_name1;
+  return code
 };
 
 Blockly.MRC['block_atuador_ligarbuzzer'] = function(block) {
@@ -42,9 +53,13 @@ Blockly.MRC['block_atuador_servomotor'] = function(block) {
   return code;
 };
 
+Blockly.MRC['block_esperar_atuador'] = function(block) {
+  var number_name = block.getFieldValue('NAME');
+  var code = '...;\n';
+  return code;
+};
+
 // SENSORES
-
-
 Blockly.MRC['block_sensor_luminosidade'] = function(block) {
   var dropdown_name = block.getFieldValue('NAME');
   var dropdown_name = block.getFieldValue('NAME');
@@ -76,12 +91,9 @@ Blockly.MRC['block_sensor_presenca'] = function(block) {
   return [code, Blockly.MRC.ORDER_NONE];
 };
 
-
-
 // LOGICOS
-
 Blockly.MRC['block_se_logico'] = function(block) {
-  var value_name = Blockly.JavaScript.valueToCode(block, 'NAME', Blockly.JavaScript.ORDER_ATOMIC);
+  var value_name = Blockly.MRC.valueToCode(block, 'NAME', Blockly.JavaScript.ORDER_ATOMIC);
   var statements_name = Blockly.MRC.statementToCode(block, 'NAME');
   var code = '...;\n';
   return code;
