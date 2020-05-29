@@ -3,8 +3,8 @@
 
     <category name="Logico" colour="210">
         <block type="block_se_logico"></block>
+        <block type="controls_ifelse"></block>
         <block type="block_loop_logico"></block>
-
     </category>
 
     <category name="Atuadores" colour="170">
@@ -16,13 +16,12 @@
         <block type="block_atuador_servomotor"></block>
         <block type="block_esperar_atuador"></block>
     </category>
-
     <category name="Sensores" colour="30">
         <block type="block_sensor_luminosidade"></block>
         <block type="block_sensor_obstaculo"></block>
         <block type="block_sensor_seguidordelinha"></block>
         <block type="block_sensor_presenca"></block>
-
-
     </category>
+
+
 </toolbox>

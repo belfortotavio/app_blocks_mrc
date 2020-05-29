@@ -1,57 +1,57 @@
 [
-{
-  "type": "block_atuador_ligarled",
-  "message0": "Ligar led %1",
-  "args0": [
-    {
-      "type": "field_dropdown",
-      "name": "NAME",
-      "options": [
-        [
-          "A",
-          "A"
-        ],
-        [
-          "B",
-          "B"
-        ],
-        [
-          "C",
-          "C"
-        ],
-        [
-          "D",
-          "D"
-        ],
-        [
-          "E",
-          "E"
-        ],
-        [
-          "F",
-          "F"
-        ],
-        [
-          "G",
-          "G"
-        ],
-        [
-          "H",
-          "H"
-        ],
-        [
-          "I",
-          "I"
+  {
+    "type": "block_atuador_ligarled",
+    "message0": "Ligar led %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "PORT",
+        "options": [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ],
+          [
+            "C",
+            "C"
+          ],
+          [
+            "D",
+            "D"
+          ],
+          [
+            "E",
+            "E"
+          ],
+          [
+            "F",
+            "F"
+          ],
+          [
+            "G",
+            "G"
+          ],
+          [
+            "H",
+            "H"
+          ],
+          [
+            "I",
+            "I"
+          ]
         ]
-      ]
-    }
-  ],
-  "previousStatement": null,
-  "nextStatement": null,
-  "colour": 170,
-  "tooltip": "",
-  "helpUrl": ""
-},
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 170,
+    "tooltip": "",
+    "helpUrl": ""
+  },
 
 {
   "type": "block_atuador_desligarled",
@@ -59,7 +59,7 @@
   "args0": [
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "PORT",
       "options": [
         [
           "A",
@@ -112,7 +112,7 @@
     "args0": [
       {
         "type": "field_dropdown",
-        "name": "PORTA",
+        "name": "PORT",
         "options": [
           [
             "A",
@@ -154,7 +154,7 @@
       },
       {
         "type": "field_dropdown",
-        "name": "ESTADO",
+        "name": "STATE",
         "options": [
           [
             "ligado",
@@ -174,182 +174,182 @@
     "helpUrl": ""
   },
 
-{
-  "type": "block_atuador_ligarbuzzer",
-  "message0": "Ligar buzzer %1",
-  "args0": [
-    {
-      "type": "field_dropdown",
-      "name": "NAME",
-      "options": [
-        [
-          "A",
-          "A"
-        ],
-        [
-          "B",
-          "B"
-        ],
-        [
-          "C",
-          "C"
-        ],
-        [
-          "D",
-          "D"
-        ],
-        [
-          "E",
-          "E"
-        ],
-        [
-          "F",
-          "F"
-        ],
-        [
-          "G",
-          "G"
-        ],
-        [
-          "H",
-          "H"
-        ],
-        [
-          "I",
-          "I"
+  {
+    "type": "block_atuador_ligarbuzzer",
+    "message0": "Ligar buzzer %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "PORT",
+        "options": [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ],
+          [
+            "C",
+            "C"
+          ],
+          [
+            "D",
+            "D"
+          ],
+          [
+            "E",
+            "E"
+          ],
+          [
+            "F",
+            "F"
+          ],
+          [
+            "G",
+            "G"
+          ],
+          [
+            "H",
+            "H"
+          ],
+          [
+            "I",
+            "I"
+          ]
         ]
-      ]
-    }
-  ],
-  "previousStatement": null,
-  "nextStatement": null,
-  "colour": 170,
-  "tooltip": "",
-  "helpUrl": ""
-},
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 170,
+    "tooltip": "",
+    "helpUrl": ""
+  },
 
-{
-  "type": "block_atuador_desligarbuzzer",
-  "message0": "Desligar buzzer %1",
-  "args0": [
-    {
-      "type": "field_dropdown",
-      "name": "NAME",
-      "options": [
-        [
-          "A",
-          "A"
-        ],
-        [
-          "B",
-          "B"
-        ],
-        [
-          "C",
-          "C"
-        ],
-        [
-          "D",
-          "D"
-        ],
-        [
-          "E",
-          "E"
-        ],
-        [
-          "F",
-          "F"
-        ],
-        [
-          "G",
-          "G"
-        ],
-        [
-          "H",
-          "H"
-        ],
-        [
-          "I",
-          "I"
+  {
+    "type": "block_atuador_desligarbuzzer",
+    "message0": "Desligar buzzer %1",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "PORT",
+        "options": [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ],
+          [
+            "C",
+            "C"
+          ],
+          [
+            "D",
+            "D"
+          ],
+          [
+            "E",
+            "E"
+          ],
+          [
+            "F",
+            "F"
+          ],
+          [
+            "G",
+            "G"
+          ],
+          [
+            "H",
+            "H"
+          ],
+          [
+            "I",
+            "I"
+          ]
         ]
-      ]
-    }
-  ],
-  "previousStatement": null,
-  "nextStatement": null,
-  "colour": 170,
-  "tooltip": "",
-  "helpUrl": ""
-},
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 170,
+    "tooltip": "",
+    "helpUrl": ""
+  },
 
-{
-  "type": "block_atuador_servomotor",
-  "message0": "Servo motor %1 porta %2 %3 %4",
-  "args0": [
-    {
-      "type": "field_label_serializable",
-      "name": "NAME",
-      "text": ""
-    },
-    {
-      "type": "field_dropdown",
-      "name": "NAME",
-      "options": [
-        [
-          "A",
-          "A"
-        ],
-        [
-          "B",
-          "B"
-        ],
-        [
-          "C",
-          "C"
-        ],
-        [
-          "D",
-          "D"
-        ],
-        [
-          "E",
-          "E"
-        ],
-        [
-          "F",
-          "F"
-        ],
-        [
-          "G",
-          "G"
-        ],
-        [
-          "H",
-          "H"
-        ],
-        [
-          "I",
-          "I"
+  {
+    "type": "block_atuador_servomotor",
+    "message0": "Servo motor %1 porta %2 %3 %4",
+    "args0": [
+      {
+        "type": "field_label_serializable",
+        "name": "PORT",
+        "text": ""
+      },
+      {
+        "type": "field_dropdown",
+        "name": "PORT",
+        "options": [
+          [
+            "A",
+            "A"
+          ],
+          [
+            "B",
+            "B"
+          ],
+          [
+            "C",
+            "C"
+          ],
+          [
+            "D",
+            "D"
+          ],
+          [
+            "E",
+            "E"
+          ],
+          [
+            "F",
+            "F"
+          ],
+          [
+            "G",
+            "G"
+          ],
+          [
+            "H",
+            "H"
+          ],
+          [
+            "I",
+            "I"
+          ]
         ]
-      ]
-    },
-    {
-      "type": "field_label_serializable",
-      "name": "NAME",
-      "text": "grau"
-    },
-    {
-      "type": "field_angle",
-      "name": "NAME",
-      "angle": 90
-    }
-  ],
-  "previousStatement": null,
-  "nextStatement": null,
-  "colour": 170,
-  "tooltip": "",
-  "helpUrl": ""
-},
+      },
+      {
+        "type": "field_label_serializable",
+        "name": "PORT",
+        "text": "grau"
+      },
+      {
+        "type": "field_angle",
+        "name": "ANGLE",
+        "angle": 90
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 170,
+    "tooltip": "",
+    "helpUrl": ""
+  },
 
   {
     "type": "block_esperar_atuador",
@@ -357,7 +357,7 @@
     "args0": [
       {
         "type": "field_number",
-        "name": "NAME",
+        "name": "TIMER",
         "value": 0,
         "min": 0,
         "max": 10000
@@ -365,10 +365,27 @@
     ],
     "previousStatement": null,
     "nextStatement": null,
-    "colour": 150,
+    "colour": 170,
     "tooltip": "",
     "helpUrl": ""
+  },
+  {
+    "type": "caixa_text",
+    "message0": "%1",
+    "args0": [{
+      "type": "field_input",
+      "name": "TEXT",
+      "text": ""
+    }],
+    "output": "String",
+    "helpUrl": "",
+    "tooltip": "",
+    "extensions": [
+      "text_quotes",
+      "parent_tooltip_when_inline"
+    ]
   }
+
 
 ]
 

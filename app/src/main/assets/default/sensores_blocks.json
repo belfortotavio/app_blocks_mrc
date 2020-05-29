@@ -6,7 +6,7 @@
   "args0": [
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "PORT",
       "options": [
         [
           "A",
@@ -48,7 +48,7 @@
     },
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "STATE",
       "options": [
         [
           "claro",
@@ -74,7 +74,7 @@
     
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "PORT",
       "options": [
         [
           "A",
@@ -116,7 +116,7 @@
     },
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "STATE",
       "options": [
         [
           "perto",
@@ -141,7 +141,7 @@
   "args0": [
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "PORT",
       "options": [
         [
           "A",
@@ -183,7 +183,7 @@
     },
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "STATE",
       "options": [
         [
           "dentro",
@@ -208,7 +208,7 @@
   "args0": [
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "PORT",
       "options": [
         [
           "A",
@@ -250,7 +250,7 @@
     },
     {
       "type": "field_dropdown",
-      "name": "NAME",
+      "name": "STATE",
       "options": [
         [
           "presente",
