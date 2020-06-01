@@ -1,19 +1,16 @@
 [
   {
     "type": "block_se_logico",
-    "message0": "IF %1",
+    "message0": "Se %1 Faça %2",
     "args0": [
       {
         "type": "input_value",
-        "name": "IF0",
-        "check": "Boolean"
-      }
-    ],
-    "message1": "faça %1",
-    "args1": [
+        "name": "IF0"
+      },
       {
         "type": "input_statement",
         "name": "DO0"
+
       }
     ],
     "previousStatement": null,

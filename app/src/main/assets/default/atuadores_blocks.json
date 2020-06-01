@@ -370,22 +370,37 @@
     "helpUrl": ""
   },
   {
-    "type": "caixa_text",
-    "message0": "%1",
-    "args0": [{
-      "type": "field_input",
-      "name": "TEXT",
-      "text": ""
-    }],
-    "output": "String",
-    "helpUrl": "",
+    "type": "block_int",
+    "message0": "int %1",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "NAME",
+        "value": 0,
+        "min": 0,
+        "max": 10000
+      }
+    ],
+    "output": null,
+    "colour": 150,
     "tooltip": "",
-    "extensions": [
-      "text_quotes",
-      "parent_tooltip_when_inline"
-    ]
+    "helpUrl": ""
+  },
+  {
+    "type": "block_int2",
+    "message0": "pega_text %1",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "NAME"
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 150,
+    "tooltip": "",
+    "helpUrl": ""
   }
-
 
 ]
 

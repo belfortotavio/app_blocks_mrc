@@ -55,6 +55,21 @@ Blockly.MRC['block_esperar_atuador'] = function(block) {
   return code;
 };
 
+Blockly.MRC['block_int'] = function(block) {
+  var number_int = block.getFieldValue('NAME');
+  // TODO: Assemble JavaScript into code variable.
+  var code = number_int;
+  // TODO: Change ORDER_NONE to the correct strength.
+  return [code, Blockly.MRC.ORDER_NONE];
+}
+
+Blockly.MRC['block_int2'] = function(block) {
+  var value_name = Blockly.MRC.valueToCode(block, 'NAME', Blockly.MRC.ORDER_ATOMIC);
+  // TODO: Assemble JavaScript into code variable.
+  var code = 'print ('+ value_name + ') \n';
+  return code;
+};
+
 // SENSORES
 Blockly.MRC['block_sensor_luminosidade'] = function(block) {
   var dropdown_port = block.getFieldValue('PORT');
@@ -97,15 +112,19 @@ Blockly.MRC['block_se_logico'] = function(block) {
       var code = 'if (' + value_if + ') { \n ' + statements_do + '   }'\n';
 
   }
-  return code;
+  return code;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 };
 */
+
 Blockly.MRC['block_se_logico'] = function(block) {
-  var value_if0 = Blockly.MRC.valueToCode(block, 'IF0',Blockly.MRC.ORDER_ATOMIC);
+  //var value_if0 = Blockly.MRC.valueToCode(block, 'IF0', Blockly.MRC.ORDER_ATOMIC) || '0';
+  var value_if0 =  Blockly.MRC.valueToCode(block, 'IF0', Blockly.MRC.ORDER_ATOMIC);
+//        Blockly.MRC.ORDER_NONE) || '\'\'');
+
   var statements_do0 = Blockly.MRC.statementToCode(block, 'DO0');
-  // TODO: Assemble JavaScript into code variable.
-  var code = 'if (' + value_if0 + ') {\n' + statements_do0 + '}';
-  return value_if0;
+  //var code =  'if (' + value_if0 + '){ \n  + statements_do0 +   } \n';
+   var code =  'if (condicao) { \n ' + statements_do0 + ' }\n ';
+  return code;
 };
 
 
