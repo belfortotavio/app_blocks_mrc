@@ -102,7 +102,10 @@ Blockly.MRC['block_sensor_presenca'] = function(block) {
   return [code, Blockly.MRC.ORDER_NONE];
 };
 
+
+
 // LOGICOS
+
 /*
 Blockly.MRC['block_se_logico'] = function(block) {
   var value_if = Blockly.MRC.valueToCode(block, 'IF', Blockly.MRC.ORDER_ATOMIC);
