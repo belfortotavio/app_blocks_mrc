@@ -102,8 +102,6 @@ Blockly.MRC['block_sensor_presenca'] = function(block) {
   return [code, Blockly.MRC.ORDER_NONE];
 };
 
-
-
 // LOGICOS
 
 /*
