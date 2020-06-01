@@ -114,6 +114,8 @@ Blockly.MRC['block_se_logico'] = function(block) {
   }
   return code;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 };
+
+
 */
 
 Blockly.MRC['block_se_logico'] = function(block) {
